@@ -2,7 +2,7 @@
   "name": "suggestionbot",
   "version": "1.0.0",
   "description": "A Suggestion Bot for Practice",
-  "main": "src/index.js",
+  "main": "src/SuggestionBot/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
