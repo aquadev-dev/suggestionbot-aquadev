@@ -50,7 +50,7 @@ module.exports = async (interaction) => {
 
         if (action === 'reject') {
             if (!interaction.memberPermissions.has('Administrator')) {
-                await interaction.editReply('You do not have permission to approve suggestions.')
+                await interaction.editReply('You do not have permission to reject suggestions.')
                 return;
             }
 
