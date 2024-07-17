@@ -4,7 +4,7 @@
 <p align="left">See it in action here: (Insert Link Here!)</p>
 <h2>About</h2>
 <p>
-  While working on my Discord bot for the computer science Discord server, I found two unique features I created that I would like to showcase separately with one of them being a suggestion system bot. When working on the suggestion system, realised it was such a big feature that it dserverd a seperate showcase spot on my website and github. 
+  While working on my Discord bot for the computer science Discord server, I found two unique features I created that I would like to showcase separately, one of them being a suggestion system bot. When working on the suggestion system, I realized it was such a big feature that it deserved a separate showcase spot on my website and Git Hub. It updates the progress bar that tracks the upvotes and downvotes in real time and gives admins the power to approve and reject suggestions.  
 </p>
 
 <h2>Language and Modules Used</h2>
