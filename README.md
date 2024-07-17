@@ -57,3 +57,21 @@ MONGODB_URI = YOUR_MONGODB_URI
 ```
 node .
 ```
+
+<h2>Configuring the bot</h2>
+<p>Before you can start using the bot, you need to run the command:</p>
+
+```
+/config-suggestions add <suggestion-channel-name>
+```
+<p>This adds your guildID and channelID to the bot's database so it can check that the channel the '/suggest' command was run in is in the database of suggestion channels</p>
+
+<p>You can also remove the channel from the database by typing the command:</p>
+
+```
+/config-suggestions remove <suggestion-channel-name>
+```
+
+<h2>Errors/Warning messages</h2>
+
+
