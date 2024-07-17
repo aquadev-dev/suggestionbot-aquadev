@@ -52,7 +52,6 @@ MONGODB_URI = YOUR_MONGODB_URI
 ```
 - Download the rest of the project files
 
-
 Make sure you download the emojis for the progress bar and upload them to the server that you are adding the bot to. Go to the folder named 'Bar Images' to find all the ones you need and name them to the name of the images:
 - If you don't know how to upload the images to the discord server then you can find out here: <a href="https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis#:~:text=To%20upload%20custom%20emojis%2C%20choose,to%20upload%20a%20custom%20emoji." title="Discord Support: How to upload custom emojis">Discord Support: How to upload custom emojis</a>
 
@@ -123,24 +122,26 @@ node .
 ```
 
 <p>Then you will get a modal text bot asking you to type in a suggestion for the server:</p>
-
+<img src="/imgs/SuggestDemo1.png">
 
 <p>For example like this:</p>
+<img src="/imgs/SuggestDemo2.png">
 
+<p>Also, it must be stated that you have 3 minutes to type a suggestion; otherwise, the program will timeout.</p>
 
-<p>Also it must be stated that you have 3 minutes to type a suggestion otherwise the program will timeout.</p>
-
-<p>Once you have clicked the purple 'submit' button you should see an embed that looks like this:</p>
-
+<p>Once you have clicked the purple 'submit' button, you should see an embed that looks like this:</p>
+<img src="/imgs/SuggestDemo3.png">
 <p>The bar should fill if the post is upvoted:</p>
-
+<img src="/imgs/SuggestDemo4.png">
 <p>And stay empty if it is downvoted:</p>
+<img src="/imgs/SuggestDemo5.png">
+<p>And then with one downvote and upvote, it should be half and half:</p>
+<img src="/imgs/SuggestDemo6.png">
+<p>If an admin presses the approve button, it should look like this:</p>
+<img src="/imgs/SuggestDemo7.png">
+<p>If an admin presses the reject button, it should look like this:</p>
+<img src="/imgs/SuggestDemo8.png">
 
-<p>And then with one downvote and upvote it shoul be half and half:</p>
-
-<p>If an admin presses the approve button it should look like this:</p>
-
-<p>If an admin presses the reject button it should look like this:</p>
-
-
-
+<h2>Note</h2>
+<p>If the bot gets turned off for some reason, the bot will still work when restarted, as everything is saved to the database you've linked it to</p>
+<p>Have fun :), Nathan</p>
