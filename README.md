@@ -51,6 +51,9 @@ TOKEN = YOUR_BOT_TOKEN
 MONGODB_URI = YOUR_MONGODB_URI
 ```
 
+- Make sure you download the emojis for the progress bar and upload them to the server that you are adding the bot to. Go to the folder named 'Bar Images' to find all the ones you need and name them to the name of the images.
+- If you don't know how to upload the images to the discord server then you can find out here: <a href="https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis#:~:text=To%20upload%20custom%20emojis%2C%20choose,to%20upload%20a%20custom%20emoji." title="Discord Support: How to upload custom emojis">Discord Support: How to upload custom emojis</a>
+
 - Download the rest of the project files
 - Make sure the bot you created is added to the discord server you want to run it in
 - Start the bot by running the following command
@@ -84,4 +87,33 @@ node .
 <p>If you do not have enough permissions to release the results of the poll, you will get this message:</p>
 <img src="/imgs/Warning4.png">
 <img src="/imgs/Warning5.png">
+
+<h2>Using the bot</h2>
+<p>Once you have configured the bot to create a suggestion, you can run the command:</p>
+
+```
+/suggest
+```
+
+<p>Then you will get a modal text bot asking you to type in a suggestion for the server:</p>
+
+
+<p>For example like this:</p>
+
+
+<p>Also it must be stated that you have 3 minutes to type a suggestion otherwise the program will timeout.</p>
+
+<p>Once you have clicked the purple 'submit' button you should see an embed that looks like this:</p>
+
+<p>The bar should fill if the post is upvoted:</p>
+
+<p>And stay empty if it is downvoted:</p>
+
+<p>And then with one downvote and upvote it shoul be half and half:</p>
+
+<p>If an admin presses the approve button it should look like this:</p>
+
+<p>If an admin presses the reject button it should look like this:</p>
+
+
 
