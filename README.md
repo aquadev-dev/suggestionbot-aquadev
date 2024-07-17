@@ -73,5 +73,15 @@ node .
 ```
 
 <h2>Errors/Warning messages</h2>
-
+<p>If you haven't run the configuration commands, then the bot will send this message:</p>
+<img src="/imgs/Warning1.png">
+<p>If you don't have enough permissions to run the config commands, it will give you this error:</p>
+<img src="/imgs/Warning2.png">
+<p>If you run the /suggest command in a channel that is not already in the database, you will get this message:</p>
+<img src="/imgs/Warning3.png">
+<p>If you have already voted for an option and try to vote again, it will give you this message:</p>
+<img src="/imgs/Warning6.png">
+<p>If you do not have enough permissions to release the results of the poll, you will get this message:</p>
+<img src="/imgs/Warning4.png">
+<img src="/imgs/Warning5.png">
 
